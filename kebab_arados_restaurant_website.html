@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kebab Arados – Wrocław</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #b71c1c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #8e0000;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #b71c1c;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+    .menu-category {
+      margin-bottom: 30px;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      background: white;
+      padding: 12px;
+      margin-bottom: 8px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .menu-item span {
+      font-weight: bold;
+    }
+    .info-box {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      .menu-item {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kebab Arados</h1>
+  <p>Królewska 3, Wrocław • Tel: 506 979 269</p>
+</header>
+
+<nav>
+  <a href="#about">O nas</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Kontakt</a>
+</nav>
+
+<div class="container">
+
+  <section id="about" class="info-box">
+    <h2>O nas</h2>
+    <p>
+      Kebab Arados to miejsce w centrum Wrocławia, gdzie serwujemy świeże kebaby,
+      falafel oraz tortille przygotowywane na bieżąco z najlepszych składników.
+      Oferujemy dania na miejscu, na wynos oraz z dostawą.
+    </p>
+  </section>
+
+  <section id="menu">
+    <h2>Menu</h2>
+
+    <div class="menu-category">
+      <h3>Pita Falafel</h3>
+      <div class="menu-item"><div>Pita Falafel Średnia 21cm</div><span>26 zł</span></div>
+      <div class="menu-item"><div>Pita Falafel XXL 27cm</div><span>29 zł</span></div>
+      <div class="menu-item"><div>Pita Falafel Mega 40cm</div><span>33 zł</span></div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Pita Kebab</h3>
+      <div class="menu-item"><div>Pita Średnia 21cm</div><span>26 zł</span></div>
+      <div class="menu-item"><div>Pita XXL 27cm</div><span>29 zł</span></div>
+      <div class="menu-item"><div>Pita Mega 40cm</div><span>33 zł</span></div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Tortilla</h3>
+      <div class="menu-item"><div>Tortilla Średnia 21cm</div><span>26 zł</span></div>
+      <div class="menu-item"><div>Tortilla XXL 27cm</div><span>29 zł</span></div>
+      <div class="menu-item"><div>Tortilla Mega 40cm</div><span>33 zł</span></div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Zestawy</h3>
+      <div class="menu-item"><div>Zestaw Kebab Junior</div><span>24 zł</span></div>
+      <div class="menu-item"><div>Zestaw Kebab Standard</div><span>30 zł</span></div>
+      <div class="menu-item"><div>Zestaw Kebab Duży</div><span>35 zł</span></div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Dodatki</h3>
+      <div class="menu-item"><div>Frytki</div><span>11 zł</span></div>
+      <div class="menu-item"><div>Baklawa</div><span>11 zł</span></div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Napoje</h3>
+      <div class="menu-item"><div>Coca-Cola / Sprite / Fanta 330ml</div><span>9 zł</span></div>
+      <div class="menu-item"><div>Woda 500ml</div><span>10,50 zł</span></div>
+      <div class="menu-item"><div>Fuze Tea 500ml</div><span>10,50 zł</span></div>
+    </div>
+
+  </section>
+
+  <section id="contact" class="info-box">
+    <h2>Kontakt</h2>
+    <p><strong>Adres:</strong> Królewska 3, 50-200 Wrocław</p>
+    <p><strong>Telefon:</strong> 506 979 269</p>
+    <p><strong>Godziny otwarcia:</strong> Codziennie 12:00 – 22:00</p>
+    <p>Dostępne: jedzenie na miejscu, odbiór osobisty, dostawa bezkontaktowa</p>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2025 Kebab Arados • Wszystkie prawa zastrzeżone</p>
+</footer>
+
+</body>
+</html>
